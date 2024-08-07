@@ -2,8 +2,8 @@ import datetime as dt
 import requests
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "8c5ba9b2bec470a01a2a5563e29cf2d0"
-CITY = "cairo"
+API_KEY = "--------------------------------"
+CITY = "new york"
 
 Url = f"{BASE_URL}appid={API_KEY}&q={CITY}"
 
